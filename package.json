@@ -1,0 +1,47 @@
+{
+  "name": "rollup-async",
+  "version": "0.0.0",
+  "description": "Async function demo for Ben Hallion.",
+  "homepage": "https://github.com/sholladay/rollup-async",
+  "main": "index.js",
+  "author": {
+    "name": "Seth Holladay",
+    "url": "http://seth-holladay.com",
+    "email": "me@seth-holladay.com"
+  },
+  "scripts": {
+    "demo": "gulp && open test.html",
+    "test": "xo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sholladay/rollup-async.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sholladay/rollup-async/issues",
+    "email": "me@seth-holladay.com"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "license": "MPL-2.0",
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "delivr": "^0.4.0",
+    "eslint-config-tidy": "^0.4.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "read-pkg-up": "^2.0.0",
+    "rollup": "^0.41.6",
+    "xo": "^0.18.0"
+  },
+  "keywords": [
+    "ben",
+    "rollup",
+    "is-awesome"
+  ],
+  "xo": {
+    "extend": "tidy"
+  }
+}
